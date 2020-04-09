@@ -1,6 +1,5 @@
 function showfaces(X)
 %takes a matrix of image vectors and displays them in a grid.
-%NEED HELP WITH THIS FUNCTION
 n = size(X,2);
  if n > 16, error('A maximum of 16 faces please!'), end
 rows = floor(n/4);
